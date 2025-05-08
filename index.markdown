@@ -3,8 +3,16 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Home
 ---
+# Global Life Expectancy: What Social Factors Reveal About Our Lifespan
+_By Cecilie Mai Do & Laura Pascual Hebrero_  
 
-# Life Expectancy around the world
+
+When we think about life expectancy, we often focus on factors like healthcare access, diet, and genetics. But what if the secret to a longer life lies not in our physical bodies, but in the social forces around us? Recent studies suggest that the quality of our relationships, our mental health, and the social structures we navigate also play an important role in determining how long we live. The connections we maintain with family and friends, the support systems we have in place, and even the mental toll of societal pressures can shape our lifespans in ways we might not fully understand.
+
+Mental health issues such as depression, anxiety, and stress can be just as detrimental to our life expectancy as physical illness, while a lack of social support or the prevalence of suicide rates in certain regions can be direct indicators of how social environments influence longevity. These hidden factors—often overlooked in traditional healthcare discussions—could be critical pieces of the puzzle when it comes to understanding life expectancy across different populations.
+
+This article will explore weather social factors, from mental health challenges to the importance of social connections, impact life expectancy worldwide. By examining the data and digging deeper into the ways our society affects our lifespan, we can gain a clearer picture of what really keeps us alive—and why some of us don't make it as long as others.
+
 
 Life expectancy is ...
 
