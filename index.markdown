@@ -40,7 +40,7 @@ While average life expectancy gives a helpful overview, it doesn't show all the 
 
 The ridgeline plot further reveals differences within continents. In **Africa**, the distribution widened slightly over time, which indicates persistent inequality: while some nations achieved rapid growth in life expectancy, others lagged due to conflict or resource limitations. In contrast, **Europe’s** distributions remained tightly clustered, reflecting consistently high health standards across countries. **Asia’s** ridge lines shifted rightward and narrowed which shows a great overall improvement throughout the continent as a whole.
 
-These visualizations collectively highlight a dual narrative: while the world has moved forward, it has not done so together. Regional and national differences remain. As the world contiues to work toward the **UN’s Sustainable Development Goals**, especially **Goal 3: Good Health and Well-being**, understanding and addressing these differences is more critical than ever.
+These visualizations collectively highlight a dual narrative: while the world has moved forward, it has not done so together. Regional and national differences remain. As the world contiues to work toward the **UN’s Sustainable Development Goals**, understanding and addressing these differences is more critical than ever.
 
 ## 2014, an insightful year
 
