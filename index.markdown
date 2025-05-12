@@ -61,17 +61,19 @@ However, due to the different data sources, the available country's data varies 
 For all of the above mentioned datasets, there is a total of 57 countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
 ![image](/images/countries_common_codes.png) 
 
+### Do Life Satisfaction and Social Values Impact Life Expectancy?
+
 But, do these metrics correlate to life expectancy? We compared the values for happiness, life satisfaction, suicide and friends and family importance against life expectancy. In order to do so, numeric weighted scores were calculated for the Family and Friends importance questionaries. Most values showed no visible relationship with the life expectancy across countries. The Life Satisfaction questionnarie answers resulted in the strongest relationship with life expectancy across the globe, with higher satisfaction values where life expectancy is larger.
 ![image](/images/scatter_corr_plots.png) 
 
-However, we wanted to dig deeper onto how are these objective and perceived data values correlated to each other? Happiness and Life Satisfaction questionaries are correlated but both these values do not seem associated to suicide rates.
+However, we wanted to dig deeper onto how are these objective and perceived data values correlated to each other? Happiness and Life Satisfaction questionaries are correlated but both these values do not seem associated to suicide rates. Surprisingly, suicide rate and life expectancy leaned towards a positive correlation. Is this insight counterintuitive? Is a longer life span a vector for increased suicide rate? 
 ![image](/images/corr_matrix.png) 
 
 After a deeper analysis into suicide rates, it was observed hints of a power-law distribution between country size, measured by its population and the suicide rate. Thus, suicide rates do not grow linearly and its analysis requires more complex methods, left for further publications.
 ![image](/images/loglog_suicide.png) 
 
 
-### Values and demography discussion
+### Values and Demography
 
 Perceived life satisfaction is the best indicator for life expectancy amongst all metrics considered. Values such as family and friends importance have weak correlation with life expectancy. However, values and perceived well-being indicators depend on many factors such as culture and social relationships. As seen on this [paper](https://www.sciencedirect.com/science/article/pii/S0191886920307960), values are not only culture-wise but also vary with age, thus the age distribution for each country should be considered in further analysis as different demographics might impact the results of cited questionaries.
 
