@@ -55,7 +55,10 @@ Different data sources were combined with the above illustrated life expectancy 
 For a more objective approach on social well-being, we incorporated the number of suicides per country as an indicator of mental health and social well-being that directly impacts life expectancy.
 - The number of *Suicides* data was estimated from the World Health Organization - Global Health Estimates CITE, with processing by Our World in Data CITE. These values were used together with World Bank Open Data, on their Population per country dataset.
 
-For all of the above mentioned datasets, there is a total of CHECK NUMBERS countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
+However, due to the different data sources, the available country's data varies from one source to another as it is illustrated in the following image:
+![image](/images/countries_datasets.png) 
+
+For all of the above mentioned datasets, there is a total of 57 countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
 ![image](/images/countries_common_codes.png) 
 
 Add plot for how importance dataset answer are measured (weighted values)
