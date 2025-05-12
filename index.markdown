@@ -38,7 +38,7 @@ A big contrast to the other continents is seen in **Africa**, where life expecta
 While average life expectancy gives a helpful overview, it doesn't show all the nuances within each region. To delve deeper, a **ridgeline plot** was used to visualize the distribution of life expectancy across countries within each continent over time. This not only shows central patterns but also the variations and hidden inequities that the average number often overlook.
 ![image](/images/ridgelineplot.png) 
 
-The ridgeline plot further reveals differences within continents. In **Africa**, the distribution widened slightly over time, which indicates persistent inequality: while some nations achieved rapid growth in life expectancy, others lagged due to conflict or resource limitations. In contrast, **Europe’s** distributions remained tightly clustered, reflecting consistently high health standards across countries. **Asia’s** ridge lines shifted rightward and narrowed which shows a great overall improvement throughout the continent as a whole.
+The ridgeline plot further reveals differences within continents. In **Africa**, the distribution widened slightly over time, which indicates persistent inequality: while some nations achieved rapid growth in life expectancy, others lagged due to conflict or resource limitations. In contrast, **Europe’s** distributions remained tightly clustered, reflecting consistently high health standards across countries. **Asia’s** ridge lines shifted rightward and narrowed which shows a great improvement throughout the continent as a whole.
 
 These visualizations collectively highlight a dual narrative: while the world has moved forward, it has not done so together. Regional and national differences remain. As the world contiues to work toward the UN’s Sustainable Development Goals, understanding and addressing these differences is more critical than ever.
 
@@ -56,8 +56,17 @@ Add correlation plot between all different variables
 
 Add correlation matrix 
 
-Add Actual vs Predicted Life Expectancy (based on social data)
-
 ### Values and demography discussion
 
 As seen on this [paper](https://www.sciencedirect.com/science/article/pii/S0191886920307960), values are not only culture-wise but also vary with age, thus the age distribution for each country should be considered...
+
+
+### Can Happiness Predict Longevity? Modeling Life Expectancy with Social Indicators
+In an age where global health is shaped by more than just medicine, understanding how social well-being influences longevity is increasingly important. To explore this connection, we developed a prediction model using data from happiness and life satisfaction surveys—two social indicators that showed the strongest linear correlation with life expectancy in preliminary analysis.
+FOr the year **2014** we trained a linear regression model to predict life expectancy based on these two key variables.
+
+**Add Actual vs Predicted Life Expectancy (based on social data)**
+
+The model gave an R² score of 0.44, meaning that happiness and life satisfaction explain 44% of the variation in life expectancy across countries. The scatterplot comparing the model’s predictions to actual life expectancy values shows a moderate but clear trend. Countries with higher happiness and life satisfaction tend to experience longer lifespans, suggesting that well-being is more than a side effect of health, but also a contributing factor.
+
+This analysis doesn’t claim causation, it does show evidence that how people feel about their lives can be a meaningful factor of determining their actual health outcomes. In a time where longevity is often seen through economic or technological lenses, taking into account social metrics into global health strategies might give a more holistic, and perhaps also, a more effective path forward.
