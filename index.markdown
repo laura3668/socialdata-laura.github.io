@@ -47,7 +47,13 @@ These visualizations collectively highlight a dual narrative: while the world ha
 Stopping time, we dive deeper into understanding how life expectancy relates to other social factors such as perceived happiness. As a starting point overview, life expectancy at birth in 2014 varied acrossed countries as seen below. Darker regions such as Europe presented a higher life expectancy than others, found  in lighter blue, as Africa.
 ![image](/images/countries_life_expectancy_2014.png) 
 
-Explain the questionaries and link other datasets
+Different data sources were combined with the above illustrated life expectancy values. The perceived well-being factors included in our analysis are based on the following data sources:
+- The *Life Satisfaction* dataset is collected from the yearly Gallup World Poll CITE. This sample, asks participants to think of a ladder and rate their live from 0 to 10, with the best possible life for them being a 10 and the worst possible life being a 0. This scale is known as Cantril Ladder CITE. 
+- The *Happiness* dataset includes the share of people who replied "very happy" or "quite happy" when asked "Taking all things together, would you say you are very happy, quite happy, not very happy or not at all happy?" on the Integrated Values Surveys CITE, that merges results from the European and the World Value Surveys research programs. CITE
+- Both the *Friends Importance* and *Family Importance* metrics were also obtained from the Integrated Values Surveys, where participants were asked "For each of the following aspects, indicate how important it is in your life. Would you say it is very important, rather important, not very important or not important at all?" for the items "Friends" and "Family". CITE
+
+For a more objective approach on social well-being, we incorporated the number of suicides per country as an indicator of mental health and social well-being that directly impacts life expectancy.
+- The number of *Suicides* data was estimated from the World Health Organization - Global Health Estimates CITE, with processing by Our World in Data CITE. These values were used together with World Bank Open Data, on their Population per country dataset.
 
 For all of the above mentioned datasets, there is a total of CHECK NUMBERS countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
 ![image](/images/countries_common_codes.png) 
