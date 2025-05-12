@@ -48,13 +48,18 @@ Include worldmap for life expectancy in this year (TODO)
 
 Explain the questionaries and link other datasets
 
-Include world maps for the countries that are common to all datasets in this year and thus it is part of the following results
+For all of the above mentioned datasets, there is a total of CHECK NUMBERS countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
+![image](/images/countries_common_codes.png) 
 
 Add plot for how importance dataset answer are measured (weighted values)
 
 Add correlation plot between all different variables
+But, do these metrics correlate to life expectancy? We compared the values for happiness, life satisfaction, suicide and friends and family importance against life expectancy. The Life Satisfaction questionnarie answers have the strongest relationship with life expectancy across the globe, with higher satisfaction values where life expectancy is larger.
+![image](/images/scatter_corr_plots.png) 
 
-Add correlation matrix 
+However, we wanted to dig deeper onto how are these objective and perceived data values correlated to each other? Happiness and Life Satisfaction questionaries are correlated but both these values do not seem associated to suicide rates.
+![image](/images/corr_matrix.png) 
+
 
 Add Actual vs Predicted Life Expectancy (based on social data)
 
