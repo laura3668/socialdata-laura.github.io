@@ -62,8 +62,8 @@ As seen on this [paper](https://www.sciencedirect.com/science/article/pii/S01918
 
 
 ### Can Happiness Predict Longevity? Modeling Life Expectancy with Social Indicators
-In an age where global health is shaped by more than just medicine, understanding how social well-being influences longevity is increasingly important. To explore this connection, we developed a prediction model using data from happiness and life satisfaction surveys—two social indicators that showed the strongest linear correlation with life expectancy in preliminary analysis.
-FOr the year **2014** we trained a linear regression model to predict life expectancy based on these two key variables.
+In an age where global health is shaped by more than just medicine, understanding how social well-being influences longevity is increasingly important. To explore this connection, we developed a prediction model using data from *happiness* and *life satisfaction* surveys— the two social indicators that showed the strongest linear correlation with life expectancy in the previous analysis.
+For the year **2014** we trained a linear regression model to predict life expectancy based on these two key variables.
 
 **Add Actual vs Predicted Life Expectancy (based on social data)**
 
