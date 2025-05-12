@@ -63,7 +63,6 @@ For all of the above mentioned datasets, there is a total of 57 countries, for w
 
 Add plot for how importance dataset answer are measured (weighted values)
 
-Add correlation plot between all different variables
 But, do these metrics correlate to life expectancy? We compared the values for happiness, life satisfaction, suicide and friends and family importance against life expectancy. The Life Satisfaction questionnarie answers have the strongest relationship with life expectancy across the globe, with higher satisfaction values where life expectancy is larger.
 ![image](/images/scatter_corr_plots.png) 
 
