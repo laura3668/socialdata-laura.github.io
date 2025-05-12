@@ -68,7 +68,7 @@ However, we wanted to dig deeper onto how are these objective and perceived data
 ![image](/images/corr_matrix.png) 
 
 After a deeper analysis into suicide rates, it was observed hints of a power-law distribution between country size, measured by its population and the suicide rate. Thus, suicide rates do not grow linearly and its analysis requires more complex methods, left for further publications.
-![image](/images/loglogsuicide.png) 
+![image](/images/loglog_suicide.png) 
 
 
 ### Values and demography discussion
