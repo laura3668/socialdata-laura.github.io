@@ -80,7 +80,7 @@ As seen on this [paper](https://www.sciencedirect.com/science/article/pii/S01918
 In an age where global health is shaped by more than just medicine, understanding how social well-being influences longevity is increasingly important. To explore this connection, we developed a prediction model using data from *happiness* and *life satisfaction* surveys— the two social indicators that showed the strongest linear correlation with life expectancy in the previous analysis.
 For the year **2014** we trained a linear regression model to predict life expectancy based on these two key variables.
 
-**Add Actual vs Predicted Life Expectancy (based on social data)**
+![image](/images/predicted_plot.png) 
 
 The model gave an **R² score of 0.44**, meaning that happiness and life satisfaction explain **44%** of the variation in life expectancy across countries. The scatterplot comparing the model’s predictions to actual life expectancy values shows a moderate but clear trend. Countries with higher happiness and life satisfaction tend to experience longer lifespans, suggesting that well-being is more than a side effect of health, but also a contributing factor.
 
