@@ -44,7 +44,8 @@ These visualizations collectively highlight a dual narrative: while the world ha
 
 ## 2014, an insightful year
 
-Include worldmap for life expectancy in this year (TODO)
+Stopping time, we dive deeper into understanding how life expectancy relates to other social factors such as perceived happiness. As a starting point overview, life expectancy at birth in 2014 varied acrossed countries as seen below. Darker regions such as Europe presented a higher life expectancy than others, found  in lighter blue, as Africa.
+![image](/images/countries_life_expectancy_2014.png) 
 
 Explain the questionaries and link other datasets
 
