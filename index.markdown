@@ -89,4 +89,5 @@ For the year **2014** we trained a linear regression model to predict life expec
 
 The model gave an **R² score of 0.44**, meaning that happiness and life satisfaction explain **44%** of the variation in life expectancy across countries. The scatterplot comparing the model’s predictions to actual life expectancy values shows a moderate but clear trend. Countries with higher happiness and life satisfaction tend to experience longer lifespans, suggesting that social well-being is more than just a side effect of health, but also a contributing factor.
 
+#### Takeaway
 This analysis doesn’t claim causation, but it does show how people feel about their lives can be a meaningful factor of determining their actual health outcomes. In a time where longevity is often seen through economic or technological lenses, taking into account social metrics into global health strategies might give a more holistic, and perhaps also, a more effective path forward.
