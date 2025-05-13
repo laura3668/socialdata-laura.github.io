@@ -91,3 +91,5 @@ The model gave an **R² score of 0.44**, meaning that happiness and life satisfa
 
 #### Takeaway
 This analysis doesn’t claim causation, but it does show how people feel about their lives can be a meaningful factor of determining their actual health outcomes. In a time where longevity is often seen through economic or technological lenses, taking into account social metrics into global health strategies might give a more holistic, and perhaps also, a more effective path forward.
+
+For our interested reader, you can read more about the analysis behind this article on our [GitHub project](https://github.com/laura3668/02806_FinalProject).
