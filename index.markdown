@@ -15,7 +15,7 @@ These findings align with the United Nations Sustainable Development Goals (SDGs
 ## Life Expectancy at Birth Across the Globe 
 To explore the intricate relationship between social factors and life expectancy, we turn to the World Health Organization's [Global Health Estimates (GHE): Life expectancy at birth](https://www.sciencedirect.com/science/article/pii/S0191886920307960). The GHE data has been enriched by combining it with additional indicators from [Human Development reports](https://hdr.undp.org) to create [Life Expectancy at Birth Across the Globe](https://www.kaggle.com/datasets/iamsouravbanerjee/life-expectancy-at-birth-across-the-globe/data) This comprehensive dataset offers insights into life expectancy at birth across 194 countries, including standardized ISO3 country codes and regional groupings by continent.
 
-Looking at the years from **2000-2020**, the data reveals that the global average life expectancy at birth rose from about 66.7 to 71.8 years—an increase of over five years. This two-decade period reflects continuous improvements in healthcare access, disease control, and living standards across the world. However, these trends are not uniform across the globe. In 2020, Monaco topped the charts with an average life expectancy of *86.5 years*. In great contrast, Chad recorded the lowest number at just *52.8 years*—a 34-year gap that shows just how deep and the inequalities in global health really ares. 
+Looking at the years from **2000-2020**, the data reveals that the global average life expectancy at birth rose from about 66.7 to 71.8 years—an increase of over five years. This two-decade period reflects continuous improvements in healthcare access, disease control, and living standards across the world. However, these trends are not uniform across the globe. In 2020, Monaco topped the charts with an average life expectancy of *86.5 years*. In great contrast, Chad recorded the lowest number at just *52.8 years*—a 34-year gap that shows just how deep the inequalities in global health really are. 
 
 ### A World Divided by Longevity: How Life Expectancy Varies by Continent
 While global life expectancy has steadily increased over the past two decades, not all regions have experienced this equally. The uneven distribution becomes even more evident when analysing continental trends. 
@@ -27,7 +27,7 @@ The data shows a large contrasts—where geography, wealth, and policy shape the
 
 **Europe** and **Oceania** have consistently had the highest average life expectancies. Countries like Monaco, where life expectancy reached 86.5 years in 2020, and Australia, averaging over 83 years, reflect the quality of their healthcare systems, stable government, and comprehensive welfare programs. According to the [World Bank](https://data.worldbank.org/indicator/SP.DYN.LE00.IN), many European nations have had a life expectancy near or above the 80-year mark throughout the 21st century, as a result of their sustained investment in public health and social infrastructure.
 
-In recent years, **Asia** have seen rapid improvements. Over the last two decades, countries like Japan, Singapore, and South Korea have dramatically extended lifespans. The reasoning being their cutting-edge medical care, populations with some of the world’s highest education levels, and public health systems that proactively tackle everything from aging populations to pandemic threats. For instance, South Korea’s average life expectancy rose from around 75.9 years in 2000 to 83.5 years in 2020, placing it among the world’s leaders ([OECD Health Statistics](https://www.oecd.org/health/health-data.htm)).
+In recent years, **Asia** has seen rapid improvements. Over the last two decades, countries like Japan, Singapore, and South Korea have dramatically extended lifespans. The reasoning being their cutting-edge medical care, populations with some of the world’s highest education levels, and public health systems that proactively tackle everything from aging populations to pandemic threats. For instance, South Korea’s average life expectancy rose from around 75.9 years in 2000 to 83.5 years in 2020, placing it among the world’s leaders ([OECD Health Statistics](https://www.oecd.org/health/health-data.htm)).
 
 **North America**, long known for its high life expectancy, experienced a more complex change. While countries like Canada have maintained relatively stable numbers, the United States has seen stagnation—and even slight declines—especially in during the COVID-19 pandemic. In 2020, U.S. life expectancy dropped by nearly 1.8 years, the largest single-year decline since World War II, primarily due to the pandemic and widening health inequities ([CDC](https://www.cdc.gov/nchs/pressroom/nchs_press_releases/2021/202107.htm)).
 
@@ -36,6 +36,7 @@ A big contrast to the other continents is seen in **Africa**, where life expecta
 **Latin America and the Caribbean** presented a mixed picture. Countries like Chile and Costa Rica have life expectancies that are comparable to many high-income nations, often exceeding 80 years. However, the political and economic instability in other parts of the region also means unequal access to healthcare, which causes slower progress or even regressions in countries like Venezuela and Honduras.
 
 While average life expectancy gives a helpful overview, it doesn't show all the nuances within each region. To delve deeper, a **ridgeline plot** was used to visualize the distribution of life expectancy across countries within each continent over time. This not only shows central patterns but also the variations and hidden inequities that the average number often overlook.
+
 ![image](/images/ridge_plot.png) 
 
 The ridgeline plot further reveals differences within continents. In **Africa**, the distribution widened slightly over time, which indicates persistent inequality: while some nations achieved rapid growth in life expectancy, others lagged due to conflict or resource limitations. In contrast, **Europe’s** distributions remained tightly clustered, reflecting consistently high health standards across countries. **Asia’s** ridge lines shifted rightward and narrowed which shows a great improvement throughout the continent as a whole.
@@ -45,6 +46,7 @@ These visualizations collectively highlight a dual narrative: while the world ha
 ## 2014, an insightful year
 
 Stopping time, we dive deeper into understanding how life expectancy relates to other social factors such as perceived happiness. As a starting point overview, life expectancy at birth in 2014 varied acrossed countries as seen below. Darker regions such as Europe presented a higher life expectancy than others, found  in lighter blue, as Africa.
+
 ![image](/images/countries_life_expectancy_2014.png) 
 
 Different data sources were combined with the above illustrated life expectancy values. The perceived well-being factors included in our analysis are based on the following data sources:
@@ -56,20 +58,25 @@ For a more objective approach on social well-being, we incorporated the number o
 - The number of *Suicides* [data](https://ourworldindata.org/suicide) was estimated from the World Health Organization - Global Health Estimates ([GHE](https://www.who.int/data/global-health-estimates)), with processing by Our World in Data. These values were used together with World Bank Open Data, on their Population per country [dataset](https://data.worldbank.org/indicator/SP.POP.TOTL).
 
 However, due to the different data sources, the available country's data varies from one source to another as it is illustrated in the following image:
+
 ![image](/images/countries_datasets.png) 
 
 For all of the above mentioned datasets, there is a total of 57 countries, for which data is available in 2014. Below, highlighted in green the common countries. Further analysis is limited to these countries.
+
 ![image](/images/countries_common_codes.png) 
 
 ### Do Life Satisfaction and Social Values Impact Life Expectancy?
 
 But, do these metrics correlate to life expectancy? We compared the values for happiness, life satisfaction, suicide and friends and family importance against life expectancy. In order to do so, numeric weighted scores were calculated for the Family and Friends importance questionaries. Most values showed no visible relationship with the life expectancy across countries. The Life Satisfaction questionnarie answers resulted in the strongest relationship with life expectancy across the globe, with higher satisfaction values where life expectancy is larger.
+
 ![image](/images/scatter_corr_plots.png) 
 
 However, we wanted to dig deeper onto how are these objective and perceived data values correlated to each other? Happiness and Life Satisfaction questionaries are correlated but both these values do not seem associated to suicide rates. Surprisingly, suicide rate and life expectancy leaned towards a positive correlation. Is this insight counterintuitive? Is a longer life span a vector for increased suicide rate? 
+
 ![image](/images/corr_matrix.png) 
 
 After a deeper analysis into suicide rates, it was observed hints of a power-law distribution between country size, measured by its population and the suicide rate. Thus, suicide rates do not grow linearly and its analysis requires more complex methods, left for further publications.
+
 ![image](/images/loglog_suicide.png) 
 
 
