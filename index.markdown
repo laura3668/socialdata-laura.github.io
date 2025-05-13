@@ -5,7 +5,6 @@ title: Home
 _By Cecilie Mai Do & Laura Pascual Hebrero_  
 
 <img src="images/front-picture.jpg" width="620">
-![image](/images/front-picture.jpg)
 
 When we think about life expectancy, we often focus on factors like healthcare access, diet, and genetics. But what if the secret to a longer life lies not just in our physical bodies, but in the social factors around us? Recent studies suggest that the quality of our relationships, our mental health, and the social structures around us also play an important role in determining how long we live. Research from the [World Health Organization](https://www.who.int/health-topics/social-determinants-of-health) highlights how social determinants of health, such as community support and socioeconomic conditions, significantly influence lifespan outcomes. The connections we maintain with family and friends, the support systems we have in place, and even the mental toll of societal pressures can shape our lifespans in ways we might not fully understand.  
 
