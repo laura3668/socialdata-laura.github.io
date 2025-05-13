@@ -36,7 +36,7 @@ A big contrast to the other continents is seen in **Africa**, where life expecta
 **Latin America and the Caribbean** presented a mixed picture. Countries like Chile and Costa Rica have life expectancies that are comparable to many high-income nations, often exceeding 80 years. However, the political and economic instability in other parts of the region also means unequal access to healthcare, which causes slower progress or even regressions in countries like Venezuela and Honduras.
 
 While average life expectancy gives a helpful overview, it doesn't show all the nuances within each region. To delve deeper, a **ridgeline plot** was used to visualize the distribution of life expectancy across countries within each continent over time. This not only shows central patterns but also the variations and hidden inequities that the average number often overlook.
-![image](/images/ridgelineplot.png) 
+![image](/images/ridge_plot.png) 
 
 The ridgeline plot further reveals differences within continents. In **Africa**, the distribution widened slightly over time, which indicates persistent inequality: while some nations achieved rapid growth in life expectancy, others lagged due to conflict or resource limitations. In contrast, **Europe’s** distributions remained tightly clustered, reflecting consistently high health standards across countries. **Asia’s** ridge lines shifted rightward and narrowed which shows a great improvement throughout the continent as a whole.
 
